@@ -1,50 +1,130 @@
-# Welcome to your Expo app 👋
+# EduNode: Verifiable Learning for a Tokenized World
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Unlocking the future of education with **NFT Certificates**, **Micro-Monetization**, and **Subscription Learning**.
 
-## Get started
+## 🚀 Overview
 
-1. Install dependencies
+EduNode is an innovative educational platform addressing the trust, access, and incentive issues in online learning. We provide:
 
-   ```bash
-   npm install
-   ```
+- **NFT-Based Certificates**: Verifiable and immutable proof of learning on-chain.
+- **Token-Based Subscriptions**: Learners pay per lesson for maximum flexibility.
+- **Recurring Instructor Earnings**: Instructors earn every time their content is viewed.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🤝 Team
 
-In the output, you'll find options to open the app in a
+- **Srirangan AD Kannan** – Developer  
+- **Arvindh Kumar** – Developer  
+- **Aatiq Husain** – Design  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🎯 Problem We Solve
 
-## Get a fresh project
+- **Untrustworthy Certificates**  
+- **Limited Access to Education**  
+- **Low Incentives for Instructors**  
+- **High Drop-Off Rates and Missed Opportunities**
 
-When you're ready, run:
+---
+
+## 🛠️ EduNode Solutions
+
+| Problem                     | Solution                                      |
+|----------------------------|-----------------------------------------------|
+| Fake/Unverifiable Certificates | NFT-based, blockchain-verified credentials  |
+| High Upfront Fees          | Pay-as-you-go, tokenized lesson model         |
+| One-time Instructor Earnings | Continuous revenue with per-lesson payments |
+| Rigid Learning Paths       | Learner-controlled pace and pricing           |
+
+---
+
+## 📖 A Story: Aarav’s Journey
+
+1. **Subscribes** to EduNode and receives tokens.
+2. **Learns** via tokenized lessons, managing budget per topic.
+3. **Earns** an NFT certificate after completing *AI for Beginners*.
+4. **Shares** verifiable credentials on LinkedIn.
+5. **Advances** his career through trusted, visible skills.
+
+---
+
+## 👩‍🏫 Empowering Educators
+
+- **Upload Modular Content** with token-based pricing.
+- **Earn Recurring Revenue** per lesson viewed.
+- **Access Analytics Dashboards** for feedback and optimization.
+- **Incentivized Quality** through transparent performance metrics.
+
+---
+
+## 🧑‍💻 Tech Stack & Workflow
+
+| Technology   | Purpose                                           |
+|--------------|---------------------------------------------------|
+| RevenueCat   | Subscription and token management                 |
+| MongoDB      | User authentication, progress tracking            |
+| Xion SDK     | NFT minting and on-chain certificate verification |
+| OneSignal    | Push notifications for retention and engagement   |
+
+---
+
+## 📊 Analytics-Driven Improvement
+
+- **Learner Analytics**: Drop-off rates, token usage, completion data  
+- **Instructor Analytics**: Feedback, revenue per lesson  
+- **Admin Analytics**: Churn indicators, growth and engagement metrics
+
+---
+
+## 📈 Market Opportunity
+
+- **$400B+ EdTech market** by 2026  
+- **Gap in verifiable micro-credentialing** (Coursera/Udemy lack this)  
+- **First-mover advantage** with NFT + Tokenization model  
+
+---
+
+## 🛣️ Roadmap
+
+1. **Phase 1: Beta Launch**  
+   - 10 instructors  
+   - 500 learners  
+   - Validate token pricing and NFT flow  
+
+2. **Phase 2: Instructor Expansion**  
+   - Onboard more educators  
+   - Partner with early content providers  
+
+3. **Phase 3: User Acquisition**  
+   - Targeted marketing  
+   - Leverage NFT social proof on LinkedIn, etc.
+
+4. **Timeline**  
+   - 6-month MVP development  
+   - Beta launch  
+   - Public release
+
+---
+
+## 🧩 Related Repositories
+
+- [edunode-app](https://github.com/SriranganK/dexters-frontend) – Frontend React Native app
+- [edunode-backend](https://github.com/SriranganK/dexters-backend) – Backend APIs and NFT services
+
+---
+
+## 🔗 Links
+
+- 🌐 [Project Website](https://docs.google.com/presentation/d/1hNW94_TJbhIfgmkR431zIxWtnrQNHFVtuq_GoxpT2_8/mobilepresent?slide=id.p7)
+
+---
+
+## ⚙️ Setup
+
+**React Native (Expo)**
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install
+npx expo start
